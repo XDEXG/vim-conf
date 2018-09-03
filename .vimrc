@@ -20,7 +20,7 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-"Plug 'vim-airline/vim-airline'
+Plug 'altercation/vim-colors-solarized'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
@@ -52,6 +52,14 @@ func! Leave_ctrlp()
     set laststatus=2
 endfunc
 
+
+" ---------- solarized color setting
+syntax enable
+" set background=light
+" colorscheme solarized
+" 深色
+set background=dark
+colorscheme solarized
 
 
 

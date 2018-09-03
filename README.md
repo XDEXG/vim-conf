@@ -2,28 +2,31 @@
 
 ## 1. install vim
 
-
-## 2. install vim plugin manager:  
-```
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-```
-
-## 3. download .tmux.conf
+## 2. download .tmux.conf
 ```
 cd
-git clone https://github.com/xdexg/tmux-conf.git
-ln -s ~/tmux-conf/.tmux.conf ~/.tmux.conf
-# -n参数使得不覆盖已存在的本地配置文件。
-cp -n ~/tmux-conf/.tmux.conf.local .
+git clone https://github.com/XDEXG/vim-conf.git
+ln -s ~/vim-conf/.vimrc ~/.vimrc
+vim
+
 ```
 
-## 4. reload tmux environment
+## 3. start vim 
+vim
+
+## 4. installing plugins
+参见
+[vim-plug](https://github.com/junegunn/vim-plug)
+[vimawesome](https://vimawesome.com/)
+
+在vim中:
 ```
-tmux source ~/.tmux.conf
+:source %
+:PlugInstall
+
 ```
 
-## 5. installing plugins
-在tmux中:
-```
-prefix + I
-```
+## 5. 配置文件中颜色使用了solarized的light配色
+
+可改成其他配色
+[ethanschoonover solarized/](https://vimawesome.com/plugin/vim-colors-solarized-ours)
