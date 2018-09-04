@@ -26,7 +26,20 @@ vim
 
 ```
 
-## 5. 配置文件中颜色使用了solarized的light配色
+## 5. update config
+```
+cd ~/vim-conf
+git pull
+vim
+:source %
+:PlugInstall
+``` 
+
+
+##  配置文件中颜色使用了solarized的dark配色
 
 可改成其他配色
 [ethanschoonover solarized/](https://vimawesome.com/plugin/vim-colors-solarized-ours)
+
+
+
