@@ -2,7 +2,7 @@
 
 ## 1. install vim
 
-## 2. download .tmux.conf
+## 2. download vim-conf
 ```
 cd
 git clone https://github.com/XDEXG/vim-conf.git
